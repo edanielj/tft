@@ -12,3 +12,8 @@ variable "tags" {
   description = "Tags"
   default     = "RT_APP"
 }
+variable "instance_count" {
+  description = "Number of instance"
+  type = number
+  default = 2
+}
